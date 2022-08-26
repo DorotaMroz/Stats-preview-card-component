@@ -63,5 +63,5 @@ I'm still not completely comfortable with positioning, flexbox and grid techniqu
 
 ## Author
 
-- Website - [Dorota Mroz](https://www.your-site.com)
+- Website - [Dorota Mroz]([https://www.your-site.com](https://dorotamroz.github.io/Stats-preview-card-component/))
 - Frontend Mentor - [@DorotaMroz](https://www.frontendmentor.io/profile/DorotaMroz)
