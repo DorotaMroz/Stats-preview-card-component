@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/DorotaMroz/Stats-preview-card-component/blob/main/README.md)
 - Live Site URL: (https://dorotamroz.github.io/Stats-preview-card-component/)
 
 ## My process
