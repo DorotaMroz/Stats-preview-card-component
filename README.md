@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://dorotamroz.github.io/Stats-preview-card-component/)
 
 ## My process
 
@@ -63,5 +63,5 @@ I'm still not completely comfortable with positioning, flexbox and grid techniqu
 
 ## Author
 
-- Website - [Dorota Mroz]([https://www.your-site.com](https://dorotamroz.github.io/Stats-preview-card-component/))
+- Website - [Dorota Mroz]
 - Frontend Mentor - [@DorotaMroz](https://www.frontendmentor.io/profile/DorotaMroz)
