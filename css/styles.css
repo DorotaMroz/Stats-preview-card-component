@@ -57,7 +57,7 @@ img {
     margin: auto;
 }
 
-section {
+main {
     padding: 160px 0;
 }
 
@@ -123,7 +123,7 @@ section {
 
 /* Base Styling */
 
-    section {
+    main {
         padding: 80px 0;
     }
 
