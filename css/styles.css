@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* Base Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mobile: 375px;
+    --desktop: 1440px;
+    --body-font: "Inter", 'Lexend Deca', sans-serif;
+    --font-size-h1: 2rem;
+    --font-size-p: .7rem;
+    --font-size-span: 1.3rem;
+    --main-background: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+   font-family: var(--body-font);
+   background-color: var(--main-background);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    color: var(--white);
+}
+
+p {
+    font-size: var(--font-size-p);
+    font-weight: 400;
+    color: var(--main-paragraph);
+}
+
+span {
+    font-size: var(--font-size-span);
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+section {
+    padding: 115px 0;
+}
+
+/* Content Styling */
+
+.content {
+    display: flex;
+    width: 31rem;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: .5rem 0 0 .5rem;
+    padding: 5rem;
+    background-color: var(--card-background);
+}
+
+.content .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.content .text-spacing {
+    line-height: 1.2rem;
+    letter-spacing: .05rem;
+}
+
+.content .accent {
+    font-size: var(--font-size-h1);
+    color: var(--soft-violet);
+}
+
+.box1 p {
+    display: flex;
+    flex-direction: column;
+    color: var(--stat-headings);
+}
+
+.box1 .number {
+    color: var(--white);
+    padding-bottom: .4rem;
+}
+
+.box1 .text-spacing1 {
+    letter-spacing: .05rem;
+}
+
+/* Image Container Styling */
+
+.image-container {
+    width: 31rem;
+    height: 26.3rem;
+    background-size: cover;
+    border-radius: 0 .5rem .5rem 0;
+    background-image:
+    linear-gradient(to bottom, hsla(277, 110%, 30%, 0.55), hsla(277, 100%, 31%, 0.55)),
+    url('../images/image-header-desktop.jpg');
+}
+
+/******************************************** Media Query Mobile ****************************************************************/
+
+@media screen and (max-width: 376px) {
+
+/* Base Styling */
+
+    section {
+        padding: 80px 0;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+      
+    }
+
+/* Image Container Styling */
+
+.image-container {
+    width: 18rem;
+    height: 15.3rem;
+    background-size: cover;
+    border-radius: .5rem .5rem 0 0;
+    background-image:
+    linear-gradient(to bottom, hsla(277, 110%, 30%, 0.55), hsla(277, 100%, 31%, 0.55)),
+    url('../images/image-header-desktop.jpg');
+}
+
+/* Content Styling */
+
+.content {
+    display: flex;
+    width: 18rem;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 0 0 .5rem .5rem;
+    background-color: var(--card-background);
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.content .text-spacing {
+    text-align: center;
+}
+
+.content .accent {
+    font-size: 1.5rem;
+}
+
+.content .box1 {
+    flex-direction: column;
+}
+
+.box1 p {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.7rem;
+}
+
+
+}
