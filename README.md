@@ -92,7 +92,7 @@ I'm still not completely comfortable with positioning, flexbox and grid techniqu
 
 ### Useful resources
 
-- [Example resource 1] (https://www.w3schools.com/cssref/tryit.asp?filename=trycss_mix-blend-mode)
+- (https://www.w3schools.com/cssref/tryit.asp?filename=trycss_mix-blend-mode)
 This helped me with turning black and white image to color. 
 The mix-blend-mode property specifies how an element's content should blend with its background.
 
