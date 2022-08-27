@@ -12,6 +12,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -88,6 +89,12 @@ img {
 ### Continued development
 
 I'm still not completely comfortable with positioning, flexbox and grid techniques.
+
+### Useful resources
+
+- [Example resource 1]([https://www.example.com](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_mix-blend-mode))
+This helped me with turning black and white image to color. 
+The mix-blend-mode property specifies how an element's content should blend with its background.
 
 ## Author
 
