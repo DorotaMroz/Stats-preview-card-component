@@ -106,6 +106,6 @@ The mix-blend-mode property specifies how an element's content should blend with
 It will be difficult to respond and solve problems without any support from the other web developers.
 Thank you for your support. I appreciate you.
 
-@DavidMorgade
-@correlucas
+- Frontend Mentor - [@DavidMorgade]
+- Frontend Mentor - [@correlucas]
 
