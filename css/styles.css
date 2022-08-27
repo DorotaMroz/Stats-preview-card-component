@@ -26,9 +26,14 @@
 body {
    font-family: var(--body-font);
    background-color: var(--main-background);
+   /* center whole card using flex-box on the body
+      perfectly centered in any screen sizes!
+    */
    display: flex;
    justify-content: center;
    align-items: center;
+   /* component will be fully centered, since your body has a min-height of the full screen of the browser!
+    */
    min-height: 100vh;
 }
 
@@ -105,16 +110,22 @@ img {
     letter-spacing: .05rem;
 }
 
-/* Image Container Styling */
+/* Image Container and Image Styling */
 
 .image-container {
+    /* turn black and white image to color*/
+    background-color: var(--soft-violet);
+    border-radius: 0 .5rem .5rem 0;
+}
+
+img {
+    display: flex;
     width: 31rem;
     height: 26.3rem;
-    background-size: cover;
-    border-radius: 0 .5rem .5rem 0;
-    background-image:
-    linear-gradient(to bottom, hsla(277, 110%, 30%, 0.55), hsla(277, 100%, 31%, 0.55)),
-    url('../images/image-header-desktop.jpg');
+    object-fit: cover;
+    /* turn black and white image to color*/
+    mix-blend-mode: multiply;
+    opacity: 75%;
 }
 
 /******************************************** Media Query Mobile ****************************************************************/
@@ -132,16 +143,20 @@ img {
       
     }
 
-/* Image Container Styling */
+/* Image Container and Image Styling */
 
 .image-container {
+    background-color: var(--soft-violet);
+    border-radius: .5rem .5rem 0 0;
+}
+
+img {
+    display: flex;
     width: 18rem;
     height: 15.3rem;
-    background-size: cover;
-    border-radius: .5rem .5rem 0 0;
-    background-image:
-    linear-gradient(to bottom, hsla(277, 110%, 30%, 0.55), hsla(277, 100%, 31%, 0.55)),
-    url('../images/image-header-desktop.jpg');
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    opacity: 75%;
 }
 
 /* Content Styling */
