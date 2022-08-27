@@ -44,8 +44,6 @@ Users should be able to:
 
 ### What I learned
 
-To see how you can add code snippets, see below:
-
 ```html
 <p class="text-spacing1"><span class="number">10k+</span>COMPANIES</p>
 ```
@@ -55,6 +53,15 @@ To see how you can add code snippets, see below:
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+body {
+   font-family: var(--body-font);
+   background-color: var(--main-background);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
 }
 ```
 ### Continued development
