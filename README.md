@@ -58,10 +58,31 @@ Users should be able to:
 body {
    font-family: var(--body-font);
    background-color: var(--main-background);
+   /* center whole card using flex-box on the body
+      perfectly centered in any screen sizes!
+    */
    display: flex;
    justify-content: center;
    align-items: center;
+   /* component will be fully centered, since your body has a min-height of the full screen of the browser!
+    */
    min-height: 100vh;
+}
+
+.image-container {
+    /* turn black and white image to color*/
+    background-color: var(--soft-violet);
+    border-radius: 0 .5rem .5rem 0;
+}
+
+img {
+    display: flex;
+    width: 31rem;
+    height: 26.3rem;
+    object-fit: cover;
+    /* turn black and white image to color*/
+    mix-blend-mode: multiply;
+    opacity: 75%;
 }
 ```
 ### Continued development
@@ -72,3 +93,12 @@ I'm still not completely comfortable with positioning, flexbox and grid techniqu
 
 - Website - [Dorota Mroz]
 - Frontend Mentor - [@DorotaMroz](https://www.frontendmentor.io/profile/DorotaMroz)
+
+## Acknowledgments
+
+It will be difficult to respond and solve problems without any support from the other web developers.
+Thank you for your support. I appreciate you.
+
+@DavidMorgade
+@correlucas
+
